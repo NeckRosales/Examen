@@ -15,7 +15,7 @@ class MainActivityBienvenida : AppCompatActivity() {
         val nombre = intent.getStringExtra("nombre")
         val apellidos = intent.getStringExtra("apellidos")
 
-        binding.tvWelcome.text = "Bienvenido $nombre $apellidos"
+        binding.tvWelcome.text = "Bienvenid@ a la APP                      $nombre $apellidos"
 
         binding.btnSalir.setOnClickListener {
             finish()

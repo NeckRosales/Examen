@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
     android:padding="16dp">
 
     <TextView
@@ -9,15 +10,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Bienvenid@ a la APP" />
+        android:fontFamily="casual"
+        android:text="Bienvenid@ a la APP"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <Button
         android:id="@+id/btnSalir"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salir"
         android:layout_below="@id/tvWelcome"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:background="#FFEB3B"
+        android:fontFamily="casual"
+        android:text="Salir"
+        android:textSize="20sp" />
 
 </RelativeLayout>

@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
     android:padding="16dp">
 
     <TextView
@@ -10,6 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
         android:text="Inicio de sesión"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -18,8 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tvTitle"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
         android:hint="Login" />
 
     <EditText
@@ -28,18 +31,21 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etLogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
         android:hint="Contraseña"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnEntrar"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="151dp"
+        android:layout_marginTop="259dp"
         android:background="#FFEB3B"
+        android:fontFamily="casual"
         android:text="Entrar"
         android:textColorLink="#9C27B0"
         android:textSize="20sp" />

@@ -9,11 +9,12 @@ import com.example.examen.databinding.ActivityMainBinding
 data class Persona(val nombre: String, val apellidos: String)
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var binding: ActivityMainBinding
 
     // Valores fijos para la comparación
-    private val miUser = "usuario"
-    private val miContra = "123"
+    private val miUser = "Neck Rosales"
+    private val miContra = "1718"
 
     // Lista de personas
     private val lista = arrayListOf(
